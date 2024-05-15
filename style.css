@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html ,body{
+    width: 100%;
+    height: 100%;
+}
+.continer{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+}
+.left{
+    width: 50%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+}
+.left > i{
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 70px;
+}
+.right{
+    width: 50%;
+    height: 100%;
+    right: 0%;
+    background-image: url(https://cdn.pixabay.com/photo/2023/09/17/22/25/witch-8259351_640.jpg);
+    object-fit: cover;
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    
+}
+.navgation{
+    width: 60%;
+    height: 10%;
+    top: 0%;
+    justify-content: space-evenly;
+    display: flex;
+    padding: 35px;
+    margin-left: 270px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.font{
+    width: 50%;
+    height: 90%;
+    position: absolute;
+    margin: 70px;
+    background-color: white;
+
+}
+.font > h1{
+    margin-left: 350px;
+    font-weight: 100;
+    margin-top: 60px;
+    font-size: 25px;
+}
+.font > span{
+    margin-top: 100px;
+    margin-left: 400px;
+    color: gray;
+}
+.font > p{
+    margin-left: 350px;
+    font-family: helvetica;
+    margin-right: 20px;
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 15px;
+    color: gray;
+}
+.font > h2{
+    font-family: helvetica;
+    font-size: 15px;
+    font-weight: 100;
+    margin-left: 350px;
+    margin-top: 20px;
+}
+.font > h3{
+    font-family: helvetica;
+    font-size: 20px;
+    margin-left: 350px;
+    margin-top: 15px;
+}
+.font > h4{
+    font-weight: 100;
+    font-size: 15px;
+    color: gray ;
+    margin-top: 4px;
+    margin-left: 350px;
+}
+.buy{
+    padding: 12px 10px;
+    margin-left: 350px;
+    margin-top: 20px;
+    color: white;
+    display: flex;
+    border: none;
+    background-color: black;
+}
+.save{
+    padding: 12px 10px;
+    margin-left: 450px;
+    display: flex;
+    margin-top: -41px;
+    background-color: transparent;
+    border-color: rgb(171, 171, 231);
+}
+.our{
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 270px;
+    margin-top: 40px;
+}
+h6{
+    font-size: 15px;
+    font-family: helvetica;
+    display: flex;
+    margin-left: 60px;
+    margin-top: 10px;
+    color: gray;
+    font-weight: 100;
+    text-align: center;
+}
+.box{
+    width: 100%;
+    height: 35%;
+}
+.boxf{
+    display: flex;
+    width: 20%;
+    background-color: black;
+}
